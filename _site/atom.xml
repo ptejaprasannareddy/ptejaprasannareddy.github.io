@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Teja Reddy</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2017-12-19T19:49:11-05:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Teja Reddy</name>
+   <email>ptejaprasannareddy@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Markovian Tweets</title>
+   <link href="http://localhost:4000/2017/12/19/MARKOVIAN-TWEETS/"/>
+   <updated>2017-12-19T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2017/12/19/MARKOVIAN-TWEETS</id>
+   <content type="html">&lt;p&gt;Generates a random tweet of 280 characters from a huge text file.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Gee-Mail</title>
+   <link href="http://localhost:4000/2017/12/18/GEE-MAIL/"/>
+   <updated>2017-12-18T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2017/12/18/GEE-MAIL</id>
+   <content type="html">&lt;p&gt;A secure asynchronous (same-machine) message platform.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Command Line Minesweeper</title>
+   <link href="http://localhost:4000/2017/12/17/MINESWEEPER/"/>
+   <updated>2017-12-17T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2017/12/17/MINESWEEPER</id>
+   <content type="html">&lt;p&gt;A minesweeper game that is played on the terminal.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Asynchronous TCP Segment Exchanger</title>
+   <link href="http://localhost:4000/2017/12/16/CLIENT-1/"/>
+   <updated>2017-12-16T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2017/12/16/CLIENT-1</id>
+   <content type="html">&lt;p&gt;A networking program where the server and client exchange TCP messages of different sizes.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Server/Client Secret Message Exchanger</title>
+   <link href="http://localhost:4000/2017/12/15/CLIENT-2/"/>
+   <updated>2017-12-15T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2017/12/15/CLIENT-2</id>
+   <content type="html">&lt;p&gt;A networking application which implements both TCP and UDP to exchange secret messages between the server and client in a specified port range.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Data Encryption in IoT using modified Public Key Infrastructure (PKI)</title>
+   <link href="http://localhost:4000/2016/12/19/PKI/"/>
+   <updated>2016-12-19T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2016/12/19/PKI</id>
+   <content type="html">&lt;p&gt;Enabling security in an IoT network using select features of a PKI. The model was simulated using network simulator 3 and the security aspects were checked with wireshark.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

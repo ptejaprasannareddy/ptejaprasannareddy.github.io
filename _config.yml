@@ -1,0 +1,35 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Teja Reddy
+url:                 http://tejareddy.me
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Teja Reddy
+  url:               https://twitter.com/treddy23
+  email:             ptejaprasannareddy@gmail.com
+
+# Custom vars
+version:             1.0.0
+github:
+  repo:              https://github.com/ptejaprasanna/portfolio
+google_analytics:    UA-3363703-15
+twitter:             treddy23
+github:              ptejaprasanna
+linkedin:            reddytej
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist

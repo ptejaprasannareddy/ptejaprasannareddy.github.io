@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="row">
+      <div class="large-12 large-centered columns">
+
+        <header class="masthead">
+          <img src="{{ site.baseurl }}/public/profile.jpg" alt="Teja Reddy">
+        </header>
+
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="large-6 large-offset-3 columns">
+
+      <div class="content-section">
+
+        <p>
+Hi, my name is Teja Reddy. I’m a student studying computer science and cybersecurity, currently living in Newark, Delaware.
+        </p>
+
+        <p>
+I'm always open to new challenges and problems. If you think you have something I might be interested in, <a href="mailto:ptejaprasannareddy@gmail.com?Subject=Message%20from%20Portfolio!">get in touch</a>.
+        </p>
+
+      </div>
+
+      <main>
+        <h2>Recent Projects</h2>
+        {% for post in site.posts %}
+          <div class="project-post">
+            <h3><a href="{{ post.git }}">{{ post.title }}</a></h3>
+            {{ post.content }}
+          </div>
+        {% endfor %}
+      </main>
+      <br>
+      <div class="content-section">
+
+        <h2>
+          Education
+        </h2>
+
+        <h4>
+          <a href="http://www.udel.edu">University of Delaware<p>Newark, DE</p></a>
+        </h4>
+        <p>Master's in Computer Engineering, 2017-Present</p>
+
+
+        <h4>
+          <a href="http://www.alliance.edu.in">Alliance University<p>Bangalore, India</p></a>
+        </h4>
+        <p>Bachelor's in Electronics and Communication Engineering, 2012-2016
+        <br>CGPA: 3.88</p>
+
+
+      </div>
+
+      <footer>
+        <h2>Contact Me!</h2>
+
+        <p>
+        Send me an <a href="mailto:ptejaprasannareddy@gmail.com?Subject=Message%20from%20portfolio!">email</a> or ping me on <a href="https://twitter.com/treddy23">Twitter</a>. I’m also on <a href="https://github.com/ptejaprasanna">Github</a> and <a href="https://www.linkedin.com/in/teja-reddy-6b292b112/
+">Linkedin</a>.
+        </p>
+      </footer>
+
+    </div>
+
+    <div class="large-2 large-offset-1 columns social">
+      <ul>
+        <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://linkedin.com/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+
+  </div>
+
+    {% if site.google_analytics %}
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', '{{ site.google_analytics }}', 'auto');
+       ga('send', 'pageview');
+     </script>
+    {% endif %}
+
+  </body>
+</html>
